@@ -1,18 +1,36 @@
-## Getting Started
+The Tic Tac Toe game provides an interactive window where two players take turns making their moves by clicking buttons arranged in a 3x3 grid.
+The game checks for a winner after every move and highlights the winning combination.
+If all spaces are filled and no winner is found, the game declares a tie.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project helps in understanding:
 
-## Folder Structure
+Event-driven programming
 
-The workspace contains two folders by default, where:
+Layout management using Swing components
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Basic game design and logic flow
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Features
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+User-friendly GUI built with Java Swing
 
-## Dependency Management
+Automatic win and tie detection after every move
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Alternating turns between Player X and Player O
+
+Winning cells highlighted in green color
+
+Tie condition highlighted in orange
+
+Displays the current player's turn and final result
+
+Works on any system with Java installed
+
+Lightweight and does not require external dependencies
+
+Technologies Used
+
+Language: Java
+Libraries: java.awt, java.awt.event, javax.swing
+IDE: Visual Studio Code (or any Java IDE such as Eclipse or IntelliJ)
+GUI Toolkit: Swing and AWT
